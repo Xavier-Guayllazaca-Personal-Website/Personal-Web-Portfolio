@@ -1,0 +1,15 @@
+header {
+  background: red;
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+main {
+  background-color: aqua;
+  flex: 1;
+}
+footer {
+  background: blue;
+}
