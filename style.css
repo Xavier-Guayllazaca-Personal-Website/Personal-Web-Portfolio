@@ -1,0 +1,32 @@
+header {
+  background: #fefefe;
+}
+ul {
+  display: flex;
+  font-size: 30px;
+  padding: 5px 5px 5px 5px;
+  justify-content: flex-end;
+}
+li {
+  padding: 0px 5px 0px 5px;
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+main {
+  background-color: aqua;
+  flex: 1;
+}
+footer {
+  background: blue;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover, a:active {
+  text-decoration: underline;
+}
+
