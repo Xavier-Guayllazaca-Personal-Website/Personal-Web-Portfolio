@@ -10,13 +10,16 @@ header {
 }
 .logo {
   height: 90px;
-  padding-bottom: -100px;
-  /* border-style: solid; */
-  /* border-width: 1px; */
-  /* border-color: red; */
   margin: 5px;
 }
-
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+li:hover {
+  background-color: #56ddd2;
+}
 ul {
   display: flex;
   font-size: 30px;
@@ -24,7 +27,7 @@ ul {
 }
 li {
   padding: 35px 5px 0px 5px;
-  height: 65px;
+  height: 67px;
   text-align: center;
 }
 body {
@@ -36,17 +39,52 @@ main {
   background-color: #30d5c8;
   flex: 1;
 }
+.projects, .about{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px 150px 0px 150px;
+    background: #1D8D84;
+    align-items: stretch;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.prj1, .prj2, .prj3, .fact1, .fact2, .fact3 {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 10px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    margin: 0px 10px 0pc 10px;
+    font-size: 25px;
+    text-align: justify;
+    padding-top: 50px;
+}
+.placeHolder {
+    height: 180px;
+}
 footer {
   background: #23afa4;
 }
-a:link,
-a:visited {
-  text-decoration: none;
-  color: black;
+
+.footerLogo1 {
+  height: 45px;
 }
-li:hover {
-    background-color: #56DDD2;
+.footerLogo2 {
+  height: 50px;
+  padding: 25px;
 }
+
 footer {
   height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
 }
